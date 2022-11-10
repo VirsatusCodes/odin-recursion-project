@@ -17,3 +17,6 @@ function fibs(n) {
     }
         return arr
     }
+
+    console.log(fibs(1));/* should be [0,1] */
+    console.log(fibs(5)); /* should be [0,1,1,2,3] */

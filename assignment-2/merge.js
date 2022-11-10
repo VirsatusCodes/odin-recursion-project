@@ -135,6 +135,8 @@ function merge(arr1,arr2){
    }
            return merge(sort(left), sort(right))
    } 
+/* console.log(sort([3,2,1,5,678,8343,4,7845])) should be [1,2,3,4,5,678,7845,8343] */
+
  
    
   /*  Version 3 --------------------------  */
